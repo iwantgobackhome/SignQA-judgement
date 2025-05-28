@@ -20,10 +20,10 @@ SAMPLE_FRACTION = 0.1 # 10% 샘플링
 # Streamlit Community Cloud 배포 시, 이 파일들이 GitHub 저장소 내에 함께 있어야 합니다.
 # 또는, 파일 업로드 기능을 사용하여 사용자가 직접 파일을 올리도록 수정할 수도 있습니다.
 DATA_FILES = {
-    "how2sign_train": "data/how2sign_train/filtered_final_data.json", # 실제 파일명 또는 경로로 변경
-    "how2sign_test": "data/how2sign_test/filtered_final_data.json", # 실제 파일명 또는 경로로 변경
-    "how2sign_val": "data/how2sign_val/filtered_final_data.json", # 실제 파일명 또는 경로로 변경
-    "openasl_data": "data/openasl_data/filtered_final_data.json"  # 실제 파일명 또는 경로로 변경
+    "how2sign_train": "data/filtered_how2sign_train.json", # 실제 파일명 또는 경로로 변경
+    "how2sign_test": "data/filtered_how2sign_test.json", # 실제 파일명 또는 경로로 변경
+    "how2sign_val": "data/filtered_how2sign_val.json", # 실제 파일명 또는 경로로 변경
+    "openasl_data": "data/filtered_openasl_data.json"  # 실제 파일명 또는 경로로 변경
 }
 
 # --- 유틸리티 함수 ---
